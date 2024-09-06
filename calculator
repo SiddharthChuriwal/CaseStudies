@@ -1,0 +1,40 @@
+Test Case 1: Valid Login
+Description: Verify that the user can log in with valid credentials.
+·	Preconditions: User is on the login page.
+·	Steps:
+1.	Enter a valid username (e.g., User12345).
+2.	Enter a valid password (e.g., Password@123).
+3.	Click the “Login” button.
+·	Expected Result: User is redirected to the Dashboard.
+Test Case 2: Empty Username Field
+Description: Leave the username field empty.
+Steps:
+Leave the username field empty.
+Enter a valid password.
+Attempt to click the login button.
+Expected Result: error message displayed
+Test Case 3: Empty Password Field
+Description: Leave the password field empty.
+Steps:
+Enter a valid username.
+Leave the password field empty.
+Attempt to click the login button.
+Expected Result: Error message displayed
+ 
+Test Case 4: Empty Username and Password Fields
+Description: Verify that the login button is disabled when both username and password fields are empty.
+ 
+Preconditions: User is on the login page.
+Steps:
+Leave the username field empty.
+Leave the password field empty.
+Expected Result: error message is displayed.
+ 
+Test Case 5: Username with Special Characters
+Description: Enter a username with special characters.
+Steps:
+Enter a username with special characters (e.g., User@123).
+Enter a valid password.
+Attempt to click the login button.
+Expected Result: error message displayed
+
