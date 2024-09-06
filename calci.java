@@ -56,6 +56,6 @@ public class BasicCalculator {
 
 		// print the final result
 		System.out.println(num1 + " " + op + " " + num2
-						+ " = " + o);
+						+ " =  " + o);
 	}
 }
